@@ -18,3 +18,13 @@ You can install the MailKit library using the NuGet Package Manager in Visual St
 4. Click on "Manage NuGet Packages".
 5. Search for "MailKit" in the NuGet Package Manager.
 6. Click on the "Install" button to install the MailKit library.
+
+## Configuration
+
+Update the [Settings.settings](./Properties/Settings.settings) file before sending an email.
+
+Please visit Google Account settings and create an App Password for the application by this [link](https://myaccount.google.com/apppasswords).
+
+## Contributore
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=TienNHM/MailKit-Template-Mail)
