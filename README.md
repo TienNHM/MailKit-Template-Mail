@@ -6,7 +6,7 @@ In this article, we will learn how to send an email using the MailKit library in
 
 ## Prerequisites
 - Visual Studio 2019 or later
-- .NET 5.0 or later
+- .NET SDK 8.0 or later (targets .NET Framework 4.7.2)
 - MailKit Library
 
 ## Installation
@@ -21,9 +21,18 @@ You can install the MailKit library using the NuGet Package Manager in Visual St
 
 ## Configuration
 
-Update the [Settings.settings](./Properties/Settings.settings) file before sending an email.
+Update `emailFrom`, `emailHost`, `emailPort` and `emailUsername` in [App.config](./App.config) before sending an email.
 
 Please visit Google Account settings and create an App Password for the application by this [link](https://myaccount.google.com/apppasswords).
+
+**Never commit the password.** Provide it through the `SMTP_PASSWORD` environment variable:
+
+```powershell
+$env:SMTP_PASSWORD = "your app password"
+dotnet run -- recipient@example.com
+```
+
+The connection always uses TLS (STARTTLS on 587, implicit TLS on 465) and validates the server certificate.
 
 ## Contributore
 

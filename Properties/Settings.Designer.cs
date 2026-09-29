@@ -61,7 +61,7 @@ namespace MailKit_Template_Mail.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("***REMOVED***")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string emailPassword {
             get {
                 return ((string)(this["emailPassword"]));
