@@ -96,3 +96,4 @@ This project is licensed under the [MIT License](./LICENSE).
 ## Contributors
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=TienNHM/MailKit-Template-Mail)
+
