@@ -20,7 +20,7 @@
     <!-- MailKit >= 4.16.0 fixes GHSA-9j88-vvj5-vhgr (STARTTLS response injection) -->
     <PackageReference Include="MailKit" Version="4.18.1" />
     <!-- MimeKit >= 4.15.1 fixes GHSA-g7hc-96xr-gvvx (CRLF injection) and GHSA-gmc6-fwg3-75m5 -->
-    <PackageReference Include="MimeKit" Version="4.18.1" />
+    <PackageReference Include="MimeKit" Version="4.18.2" />
     <!-- BouncyCastle >= 2.3.1 fixes GHSA-v435-xc8x-wvr9, GHSA-m44j-cfrm-g8qc, GHSA-8xfc-gm6g-vgpv -->
     <PackageReference Include="BouncyCastle.Cryptography" Version="2.7.0" />
     <!-- System.Formats.Asn1 >= 8.0.1 fixes CVE-2024-38095 -->
